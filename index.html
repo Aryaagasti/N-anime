@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <title>N-Anime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+ <header>
+    <a href="#" class="logo"><i class="fas fa-infinity">Anime.</i></a>
+    <nav class="navbar">
+         <a href="index.html" class="active">Home</a>
+         <a href="#anime" class="">Anime</a>
+         <a href="#action" class="">Action</a>
+         <a href="#child" class="">Child</a>
+         <a href="#Family" class="">Family</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <i class="fas fa-heart" id="heart"></i>
+    </div>
+ </header>
+
+ 
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/home-img-1.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>Kakegurui</h3>
+                        <p>High roller Yumeko Jabami plans to clean house at Hyakkaou Private<br>
+                        Academy, a school where students are evaluated solely on their<br>
+                        gambling skills.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(img/home-img-3.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>DEATH NOTE</h3>
+                         <p>When a Japanese high schooler comes into possession of a mystical<br>
+                        notebook, he finds he has the power to kill anybody whose name he<br>
+                        enters in it.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/home-img-4.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>One-Punch Man</h3>
+                         <p>The most powerful superhero in the world can kill anyone with one<br>
+                        blow. But nothing can challenge him, so he struggles with ennui and<br>
+                        depression</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(img/home-img-2.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3>Naruto</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns<br>
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="anime" id="anime">
+    <h1 class="heading">Popular on Anime</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-1.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Naruto</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-2.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>One-Punch Man</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-3.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>DEATH NOTE</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-4.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Black Clover</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-5.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-6.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Haikyu!!</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-7.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Kuroko's Basketball</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-8.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>My Hero Academia</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-9.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Dr. Stone</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-10.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Tokyo Revengers</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-11.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Sword Art Online</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-12.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>KENGAN ASHURA</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="download.html" class="btn">Download</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="action" id="action">
+    <h1 class="heading">Action Movies</h1>
+    <div class="swiper action-slider">
+        <div class="swiper-wrapper">
+
+
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-1.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Kuroko's Basketball</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-2.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>AHIRU NO SORA</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-3.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Seraph of the End</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-4.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Kuroko's  Last Game</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-7.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>DEVILS'LINE</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-8.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Legend of Exorcism</h3>
+                        <p>Guided by the spirit demon within him, orphaned Naruto learns
+                        to harness his powers as a ninja in this anime adventure series.</p>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+
+
+
+</div>
+</div>
+</section>
+
+
+
+<section class="child" id="child">
+    <h1 class="heading">Child Movies</h1>
+    <div class="swiper child-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-1.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Beyblade</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-2.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Beyblade Burst Turbo</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-3.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Bakugan: Battle Planet</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-4.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Sonic X</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-5.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Yowamushi Pedal</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-6.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Shimajiro: A Adventure</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-7.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Go Astro Boy Go!</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="family" id="family">
+    <h1 class="heading">Family Movies</h1>
+    <div class="swiper family-slider">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-1.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>STAND BY ME Doraemon 2</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-2.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Pokémon the Movie</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-3.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Hows Moving Castle</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-4.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Spirited Away</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-5.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>My Neighbor Totoro</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-6.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Kikis Delivery Service</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-7.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Ponyo</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-8.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Arrietty</h3>
+                <p>Guided by the spirit demon within him, orphaned Naruto learns
+                to harness his powers as a ninja in this anime adventure series.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</section>
+
+
+<div class="copyright container">
+    <a href="#" class="logo"><i class="fas fa-infinity"></i>Anime.</a>
+    <p>&#169; AryaAgasti. All rights reserved.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="main.js"></script>
+</body>
+</html>
